@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Datenschutzerklärung – ProBilliards</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap');
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --green: #1a7a1e;
+    --green-light: #e8f5e9;
+    --dark: #0d1b0e;
+    --text: #1a2b1b;
+    --muted: #5a7a5b;
+    --border: #c8e0c9;
+    --bg: #f7fbf7;
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    font-size: 16px;
+  }
+
+  header {
+    background: var(--dark);
+    color: white;
+    padding: 60px 24px 48px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  header::before {
+    content: '🎱';
+    position: absolute;
+    font-size: 200px;
+    opacity: 0.04;
+    top: -40px;
+    right: -40px;
+    line-height: 1;
+  }
+
+  .app-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.15);
+    padding: 8px 18px;
+    border-radius: 100px;
+    font-size: 13px;
+    color: rgba(255,255,255,0.7);
+    margin-bottom: 24px;
+    letter-spacing: 0.5px;
+  }
+
+  header h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    color: white;
+    margin-bottom: 12px;
+    letter-spacing: -0.5px;
+  }
+
+  header p {
+    color: rgba(255,255,255,0.55);
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 56px 24px 80px;
+  }
+
+  .intro-box {
+    background: white;
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--green);
+    border-radius: 12px;
+    padding: 24px 28px;
+    margin-bottom: 48px;
+    font-size: 15px;
+    color: var(--muted);
+  }
+
+  .intro-box strong { color: var(--text); }
+
+  section {
+    margin-bottom: 40px;
+  }
+
+  h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.4rem;
+    color: var(--dark);
+    margin-bottom: 14px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  h2 .icon {
+    font-size: 1.1rem;
+    flex-shrink: 0;
+  }
+
+  p { margin-bottom: 12px; color: var(--text); font-size: 15px; }
+  p:last-child { margin-bottom: 0; }
+
+  ul {
+    list-style: none;
+    margin: 12px 0;
+  }
+
+  ul li {
+    padding: 8px 0 8px 24px;
+    position: relative;
+    font-size: 15px;
+    border-bottom: 1px solid var(--border);
+  }
+  ul li:last-child { border-bottom: none; }
+
+  ul li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--green);
+    font-weight: 600;
+  }
+
+  .highlight {
+    background: var(--green-light);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 18px 22px;
+    font-size: 15px;
+    margin: 16px 0;
+  }
+
+  .highlight strong { color: var(--green); }
+
+  .contact-box {
+    background: var(--dark);
+    color: white;
+    border-radius: 16px;
+    padding: 32px;
+    text-align: center;
+    margin-top: 48px;
+  }
+
+  .contact-box h3 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .contact-box p { color: rgba(255,255,255,0.6); font-size: 14px; }
+
+  .contact-box a {
+    display: inline-block;
+    margin-top: 16px;
+    background: var(--green);
+    color: white;
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 100px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: opacity 0.2s;
+  }
+  .contact-box a:hover { opacity: 0.85; }
+
+  .date-tag {
+    text-align: center;
+    font-size: 13px;
+    color: var(--muted);
+    margin-top: 40px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="app-badge">🎱 ProBilliards · iOS App</div>
+  <h1>Datenschutzerklärung</h1>
+  <p>Zuletzt aktualisiert: Juni 2025</p>
+</header>
+
+<div class="container">
+
+  <div class="intro-box">
+    <strong>Kurz gesagt:</strong> ProBilliards speichert alle Daten ausschließlich lokal auf deinem Gerät.
+    Es werden keine persönlichen Daten gesammelt, übertragen oder an Dritte weitergegeben.
+  </div>
+
+  <section>
+    <h2><span class="icon">📱</span> Über diese App</h2>
+    <p>ProBilliards ist eine professionelle Billard-App für iPhone und iPad. Die App ermöglicht das Verwalten von Spielern, Matches, Turnieren, Trainingseinheiten sowie statistischen Auswertungen.</p>
+    <p>Verantwortlich für diese App:</p>
+    <p><strong>Frauke Witt</strong><br>
+    E-Mail: wittmarius@icloud.com</p>
+  </section>
+
+  <section>
+    <h2><span class="icon">🔒</span> Datenerhebung</h2>
+    <p>ProBilliards erhebt <strong>keine</strong> personenbezogenen Daten. Die App:</p>
+    <ul>
+      <li>Sendet keine Daten an externe Server</li>
+      <li>Nutzt keine Analytics oder Tracking</li>
+      <li>Verwendet keine Werbung oder Werbebibliotheken</li>
+      <li>Teilt keine Daten mit Dritten</li>
+      <li>Benötigt keine Registrierung oder Account</li>
+      <li>Greift nicht auf Kontakte, Kamera oder Standort zu (außer optional für Profilfotos)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="icon">💾</span> Lokale Datenspeicherung</h2>
+    <p>Alle in der App eingegebenen Daten (Spielerprofile, Matchergebnisse, Statistiken, Turniere) werden ausschließlich lokal auf deinem Gerät gespeichert – über die iOS-Funktion <strong>UserDefaults</strong>.</p>
+    <div class="highlight">
+      <strong>Deine Daten gehören dir.</strong> Sie verlassen niemals dein Gerät, es sei denn, du exportierst sie manuell über die Export-Funktion der App (JSON/CSV).
+    </div>
+    <p>Beim Löschen der App werden alle gespeicherten Daten unwiderruflich entfernt. Es gibt keine Cloud-Sicherung durch die App selbst – du kannst jedoch iOS-eigene iCloud-Backups nutzen.</p>
+  </section>
+
+  <section>
+    <h2><span class="icon">📷</span> Optionale Berechtigungen</h2>
+    <p>Falls du Profilfotos für Spieler hinzufügen möchtest, kann die App Zugriff auf deine Fotobibliothek anfragen. Diese Berechtigung ist vollständig optional. Fotos werden ausschließlich lokal gespeichert.</p>
+  </section>
+
+  <section>
+    <h2><span class="icon">👶</span> Kinder</h2>
+    <p>ProBilliards richtet sich an Nutzer aller Altersgruppen. Da keine Daten gesammelt oder übertragen werden, bestehen keine besonderen Datenschutzrisiken für minderjährige Nutzer.</p>
+  </section>
+
+  <section>
+    <h2><span class="icon">🔄</span> Änderungen</h2>
+    <p>Sollte sich diese Datenschutzerklärung ändern, wird die aktualisierte Version auf dieser Seite veröffentlicht. Das Datum der letzten Aktualisierung steht oben auf der Seite.</p>
+  </section>
+
+  <div class="contact-box">
+    <h3>Fragen zum Datenschutz?</h3>
+    <p>Bei Fragen oder Anliegen zum Datenschutz erreichst du mich per E-Mail.</p>
+    <a href="mailto:wittmarius@icloud.com">wittmarius@icloud.com</a>
+  </div>
+
+  <p class="date-tag">© 2025 Frauke Witt · ProBilliards · Alle Rechte vorbehalten</p>
+
+</div>
+</body>
+</html>
